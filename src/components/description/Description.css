@@ -1,8 +1,112 @@
-.description {
-    font-size: 25px;
+.description-container {
+    position: relative;
+    display: flex;
+    gap: 32px;
+}
+
+.description-image {
+    width: 608px;
+    height: 740px;
+    object-fit: cover;
+}
+
+.info-container {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f3f3f3;
-    padding: 50px;
+    margin-bottom: 110px;
+}
+
+.text-container {
+    width: 519px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title{
+    font-size: 68px;
+    color: #156963;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2C1500;
+    line-height: 1.5;
+}
+
+.description-buttons-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+    height: 160px;
+    padding-left: 38px;
+    gap: 12px;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.previous:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.previous:hover .button-info {
+    transition: margin-left 0.5s ease;
+    margin-left: -16px;
+}
+
+.previous-button-name {
+    font-size: 24px;
+    color: #333;
+}
+
+.previous-button-title {
+    font-size: 32px;
+    color: #156963;
+}
+
+.next {
+    background-color: #156963;
+}
+
+.next:hover {
+    background-color: #125750;
+}
+
+.next:hover .button-info{
+    transition: margin-left 0.5s ease;
+    margin-left: 16px;
+}
+
+.button-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 50%;
+}
+
+.next-button-name {
+    font-size: 24px;
+    color: #f2f2f2;
+}
+
+.next-button-title {
+    font-size: 32px;
+    color: #fff;
+}
+
+.arrows {
+    width: 32px;
+    height: 32px;
 }

@@ -1,4 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:  "Montserrat", serif;
+  font-weight: 500;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline #156963;
 }

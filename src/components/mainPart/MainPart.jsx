@@ -4,7 +4,6 @@ export default function MainPart(){
     return(
         <main>
             <Description/>
-            Робоча область
         </main>
     )
 }
