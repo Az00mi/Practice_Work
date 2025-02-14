@@ -2,9 +2,109 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #888888;
-    height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    border-top: 1px solid rgba(21, 105, 99, 0.3);
+    padding: 71px 167px;
+    gap: 80px;
+}
+
+.address-container {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.address-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-name {
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+    color: #156963;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.footer-titles {
+    font-family: "Work Sans", serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.address-name {
+    color: #333;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-address {
+    font-family: "Work Sans", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #4f4f4f;
+}
+
+.links-block {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-link {
+    font-family: "Work Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+}
+
+.footer-input {
+    width: 234px;
+    height: 32px;
+    padding: 0 13px;
+    font-family: "Work Sans", serif;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+}
+
+.email-block {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-button {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 12px;
+    background-color: #156963;
+    border: none;
+    border-radius: 2px;
+    font-family: Nunito, sans-serif;
+    font-size: 8px;
+    line-height: 14px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.footer-button:hover {
+    background-color: #125750;
 }
