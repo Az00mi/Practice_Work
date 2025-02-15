@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     gap: 32px;
+    margin-bottom: 62px;
 }
 
 .description-image {

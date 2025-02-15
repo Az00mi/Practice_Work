@@ -1,3 +1,10 @@
 main {
     width: 100%;
 }
+
+.page-content {
+    padding: 80px 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
