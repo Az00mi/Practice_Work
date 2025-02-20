@@ -6,7 +6,7 @@ export default function Footer(){
             <div className="address-container">
                 <p className="footer-name">Plant</p>
                 <div className="address-block">
-                    <p className="footer-titles address-name">Plantku House</p>
+                    <p className="footer-titles address-name">Plants House</p>
                     <p className="footer-address">Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta,
                         Daerah Istimewa Yogyakarta 55282</p>
                 </div>

@@ -1,0 +1,60 @@
+.products-list-component {
+}
+
+.products-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.products-list-header-title {
+    font-size: 20px;
+}
+
+.products-list-header-select {
+    appearance: none;
+    border: 1px solid #E0E0E0;
+    padding: 8px 28px 8px 12px;
+    background: url("../../../public/dropdownArrow.svg") no-repeat right 12px center;
+    font-size: 12px;
+}
+
+.products-list-header-select-option {}
+
+.products-list-header-line {
+    border: 1px solid #E0E0E0;
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+
+.product {
+    width: 217px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-title {
+    font-weight: 400;
+}
+
+.product-price {
+    font-weight: 600;
+}
+
+.product-title, .product-price {
+    word-wrap: break-word;
+    max-width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
