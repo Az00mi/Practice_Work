@@ -1,17 +1,17 @@
 import "./MainPart.css"
 import Description from "../description/Description.jsx";
 import BenefitCard from "../benefitCard/BenefitCard.jsx";
+import ProductsList from "../productsList/ProductsList.jsx";
+import OtherInfo from "../otherInfo/OtherInfo.jsx";
 import Delivery from "../../../public/delivery.svg"
 import Service from "../../../public/service.svg"
 import PlantIcon from "../../../public/plantIcon.svg"
 import Price from "../../../public/price.svg"
-import ProductsList from "../productsList/ProductsList.jsx";
 import Plant1 from "../../../public/plant1.png"
 import Plant2 from "../../../public/plant2.png"
 import Plant3 from "../../../public/plant3.png"
 import Plant4 from "../../../public/plant4.png"
 import Plant5 from "../../../public/plant5.png"
-import OtherInfo from "../otherInfo/OtherInfo.jsx";
 
 const content = [
     {
