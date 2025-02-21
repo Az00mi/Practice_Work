@@ -14,15 +14,15 @@ export default function Footer(){
             <div className="links-container">
                 <p className="footer-titles">Company</p>
                 <div className="links-block">
-                    <a href="/" className="footer-link">About Us</a>
-                    <a href="/" className="footer-link">Contact Us</a>
+                    <a href="#" className="footer-link">About Us</a>
+                    <a href="#" className="footer-link">Contact Us</a>
                 </div>
             </div>
             <div className="links-container">
                 <p className="footer-titles">Product</p>
                 <div className="links-block">
-                    <a href="/" className="footer-link">Plant</a>
-                    <a href="/" className="footer-link">Other Crops</a>
+                    <a href="#" className="footer-link">Plant</a>
+                    <a href="#" className="footer-link">Other Crops</a>
                 </div>
             </div>
             <div className="email-block">

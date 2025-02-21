@@ -19,7 +19,7 @@ export default function ProductsList({productsList}){
                 return [...products].sort((a, b) => a.price - b.price);
             case "Expensive":
                 return [...products].sort((a, b) => b.price - a.price);
-            case "default":
+            case "Default":
             default:
                 return products;
         }
