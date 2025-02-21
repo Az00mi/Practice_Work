@@ -11,6 +11,7 @@ import Plant2 from "../../../public/plant2.png"
 import Plant3 from "../../../public/plant3.png"
 import Plant4 from "../../../public/plant4.png"
 import Plant5 from "../../../public/plant5.png"
+import OtherInfo from "../otherInfo/OtherInfo.jsx";
 
 const content = [
     {
@@ -79,6 +80,7 @@ export default function MainPart(){
             <div className="page-content">
                 <BenefitCard content={content}/>
                 <ProductsList productsList={productsList}/>
+                <OtherInfo/>
             </div>
         </main>
     )
